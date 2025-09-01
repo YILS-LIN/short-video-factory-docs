@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 flex gap-4">
+  <div class="mt-4 mx-auto md-lg:mx-0 w-fit flex gap-4">
     <a href="https://github.com/YILS-LIN/short-video-factory" target="_blank">
       <img
         alt="GitHub Stars"

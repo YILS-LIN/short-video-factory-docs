@@ -10,6 +10,9 @@ import {
 
 export default defineConfig({
   theme: {
+    breakpoints: {
+      'md-lg': '960px',
+    },
     colors: {
       // ...
     },
