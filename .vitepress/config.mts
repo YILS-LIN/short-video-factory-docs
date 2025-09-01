@@ -8,6 +8,7 @@ export default defineConfig({
     // 添加图标
     ['link', { rel: 'icon', href: '/icon.png' }],
   ],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -26,6 +27,14 @@ export default defineConfig({
         link: 'https://github.com/YILS-LIN/short-video-factory',
       },
     ],
+
+    editLink: {
+      pattern: 'https://github.com/YILS-LIN/short-video-factory-docs/edit/main/:path',
+    },
+
+    footer: {
+      copyright: 'Copyright © 2025-present YILS',
+    },
   },
   locales: {
     root: {
@@ -37,17 +46,26 @@ export default defineConfig({
           { text: '首页', link: '/' },
           { text: '软件介绍', link: '/introduction' },
           { text: '使用手册', link: '/manual/' },
-          { text: '💖 请作者喝杯咖啡', link: '/donate' },
+          { text: '💖 请作者喝杯咖啡', link: '/donate/' },
+          { text: '博客', link: 'https://yils.blog' },
         ],
-        sidebar: [
-          // {
-          //   text: "Examples",
-          //   items: [
-          //     { text: "Markdown Examples", link: "/markdown-examples" },
-          //     { text: "Runtime API Examples", link: "/api-examples" },
-          //   ],
-          // },
-        ],
+        sidebar: {
+          '/manual/': [
+            {
+              text: '目录',
+              items: [{ text: '软件主界面', link: '/manual/' }],
+            },
+          ],
+          '/donate/': [
+            {
+              text: '目录',
+              items: [
+                { text: '💖 请作者喝杯咖啡', link: '/donate/' },
+                { text: '千古留名(捐赠者留言板)', link: '/donate/list' },
+              ],
+            },
+          ],
+        },
 
         search: {
           options: {
@@ -72,6 +90,7 @@ export default defineConfig({
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色主题',
         darkModeSwitchTitle: '切换到暗色主题',
+        returnToTopLabel: '返回顶部',
         docFooter: {
           prev: '上一页',
           next: '下一页',
@@ -79,6 +98,14 @@ export default defineConfig({
         outline: {
           label: '本页大纲',
           level: 'deep',
+        },
+        editLink: {
+          text: '为此页提供修改建议',
+        },
+        lastUpdatedText: '最后更新于',
+        notFound: {
+          linkLabel: '返回主页',
+          linkText: '返回主页',
         },
       },
     },
