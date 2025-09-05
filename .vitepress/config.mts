@@ -52,8 +52,29 @@ export default defineConfig({
         sidebar: {
           '/manual/': [
             {
-              text: '目录',
-              items: [{ text: '软件主界面', link: '/manual/' }],
+              text: '开始',
+              collapsed: false,
+              items: [{ text: '认识软件主界面', link: '/manual/' }],
+            },
+            {
+              text: '基础',
+              collapsed: false,
+              items: [
+                { text: '配置 LLM 大模型 API', link: '/manual/basic/llm-config' },
+                { text: '编写提示词并生成文案', link: '/manual/basic/llm-prompt' },
+                { text: '导入分镜视频素材', link: '/manual/basic/asset-manage' },
+                { text: '配置 TTS 语音合成参数', link: '/manual/basic/tts-config' },
+                { text: '一键生成短视频', link: '/manual/basic/render-video' },
+                { text: '批量任务', link: '/manual/basic/render-batch' },
+              ],
+            },
+            {
+              text: '申请 LLM API Key',
+              collapsed: false,
+              items: [
+                { text: '智谱AI', link: '/manual/llm-apply/bigmodel' },
+                { text: 'OpenAI', link: '/manual/llm-apply/openai' },
+              ],
             },
           ],
           '/donate/': [
@@ -90,6 +111,7 @@ export default defineConfig({
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色主题',
         darkModeSwitchTitle: '切换到暗色主题',
+        sidebarMenuLabel: '目录',
         returnToTopLabel: '返回顶部',
         docFooter: {
           prev: '上一页',

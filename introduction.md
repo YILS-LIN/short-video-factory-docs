@@ -3,7 +3,7 @@
 ## 📖 关于项目
 
 <div class="mt-6" align="center">
-  <img src="./assets/images/ScreenShot.png" alt="Poster" width="100%">
+  <img src="./assets/images/ScreenShot.png" alt="软件截图" width="100%">
 </div>
 
 **短视频工厂**是一个开源的桌面端应用，旨在通过AI技术简化短视频的制作流程。用户可以通过简单的提示词文本+视频分镜素材，**快速且自动的剪辑出高质量的产品营销和泛内容短视频**。该项目集成了AI驱动的文案生成、语音合成、视频剪辑、字幕特效等功能，旨在为用户提供开箱即用的短视频制作体验。
@@ -44,6 +44,15 @@
 ## 🌟 Github 主页
 
 - 项目地址：[https://github.com/YILS-LIN/short-video-factory](https://github.com/YILS-LIN/short-video-factory)
+
+## 👨‍💻 开发者信息
+
+- 开发者：[YILS-LIN](https://github.com/YILS-LIN)
+
+
+## 📖 使用手册
+
+接下来，前往 [使用手册](./manual/index.md) 了解如何使用「短视频工厂」吧！
 
 <!-- MARKDOWN链接和图片 -->
 [contributors-shield]: https://img.shields.io/github/contributors/YILS-LIN/short-video-factory.svg?color=c4f042&labelColor=black&style=flat-square
