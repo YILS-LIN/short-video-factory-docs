@@ -76,6 +76,14 @@ export default defineConfig({
                 { text: 'OpenAI', link: '/manual/llm-apply/openai' },
               ],
             },
+            {
+              text: '免版权素材站',
+              collapsed: false,
+              items: [
+                { text: 'Pixabay', link: 'https://pixabay.com' },
+                { text: 'Pexels', link: 'https://www.pexels.com' },
+              ],
+            },
           ],
           '/donate/': [
             {
