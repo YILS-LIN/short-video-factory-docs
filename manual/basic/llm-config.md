@@ -5,7 +5,7 @@
 在使用本软件生成短视频之前，我们需要先配置 LLM 大语言模型的 API 信息，以便软件可以调用大模型来生成文案内容。
 
 ::: tip 提示
-如果你还没有 LLM 大模型的 API Key，可以先查看 [申请 LLM API Key - 智谱AI](./llm-apply/bigmodel) 章节，了解如何申请常用的大模型 API Key。
+如果你还没有 LLM 大模型的 API Key，可以先查看 [申请 LLM API Key - 智谱AI](../llm-apply/bigmodel.md) 章节，了解如何申请常用的大模型 API Key，且多家厂商提供了免费的模型服务。
 :::
 
 ## 了解配置界面
@@ -24,7 +24,9 @@
 - **API Key**： 大模型服务商提供的访问密钥。
 - **模型名称**： 大模型服务商提供的 LLM 模型名称（不能乱填，此为调用参数传递的模型名称）。
 
+::: tip 提示
 兼容任意支持 **OpenAI 接口规范** 的 LLM 大模型服务商，例如智谱AI、Kimi、OpenAI、Azure、OneAPI、OpenRouter等。
+:::
 
 ## 填写配置信息
 
@@ -32,7 +34,7 @@
 
 > 这里我们使用智谱最新的免费模型。
 > 
-> 关于这些参数从哪里来的，可以参考 [申请 LLM API Key - 智谱AI](./llm-apply/bigmodel) 章节。
+> 关于这些参数从哪里来的，可以参考 [申请 LLM API Key - 智谱AI](../llm-apply/bigmodel.md) 章节。
 
 ![填写配置信息测试并保存](../../assets/images/UI_Tutorial_zh-CN_004.png)
 
