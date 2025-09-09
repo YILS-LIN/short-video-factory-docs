@@ -7,6 +7,15 @@ export default defineConfig({
   head: [
     // 添加图标
     ['link', { rel: 'icon', href: '/icon.png' }],
+    // 添加统计
+    [
+      'script',
+      {
+        defer: '',
+        src: 'https://umami.yils.blog/script.js',
+        'data-website-id': '17ac82e1-84f8-4970-b9a8-2823e8d51c14',
+      },
+    ],
   ],
   lastUpdated: true,
   themeConfig: {
